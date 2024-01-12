@@ -13,5 +13,5 @@ export default {
             title: 'Second Image',
             type: 'image',
         },
-    ]
+    ],
 }

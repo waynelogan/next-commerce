@@ -17,7 +17,7 @@ export default function Navbar() {
     const pathName = usePathname()
 
     return (
-        <header className='mb-8 border-b'>
+        <header className='mb-8 md:mb-4 border-b'>
             <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:mx-6 lg:max-w-7xl">
                 <Link href="/">
                     <h1 className="text-2xl md:text-4xl font-bold">
