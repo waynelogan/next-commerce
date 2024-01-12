@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'Next Commerce',
 
-  projectId: '51ca3i15',
+  projectId: '1pd2i0bc',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
