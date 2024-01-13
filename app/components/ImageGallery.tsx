@@ -28,19 +28,22 @@ export default function ImageGallery({ images }: iAppProps) {
                             height={200}
                             alt='product image'
                             className='h-full w-full object-cover object-center cursor-pointer'
-                            onClick={ () => {handleSmallImageClick(image) }}
+                            onClick={() => { handleSmallImageClick(image) }}
                         />
                     </div>
                 ))}
             </div>
             <div className='relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-4 h-[60vh] md:h-[80vh]'>
-                <Image 
-                src={urlFor(bigImage).url()}
-                alt='Main image'
-                width={500}
-                height={500}
-                className='h-full w-full object-cover object-center'
+                <Image
+                    src={urlFor(bigImage).url()}
+                    alt='Main image'
+                    width={500}
+                    height={500}
+                    className='h-full w-full object-cover object-center'
                 />
+                <span className='absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-white uppercase tracking-wider'>
+                    Sale
+                </span>
             </div>
         </div>
     )
