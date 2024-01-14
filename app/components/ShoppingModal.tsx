@@ -82,6 +82,17 @@ export default function ShoppingCartModal() {
                                 Checkout
                             </Button>
                         </div>
+                        <div className='mt-6 flex justify-center text-center text-sm text-gray-500'>
+                            <p>
+                                Or {" "}
+                                <button 
+                                className='font-medium text-primary hover:text-primary/80'
+                                onClick={() => handleCartClick() }
+                                >
+                                    Continue Shopping
+                                </button>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </SheetContent>
